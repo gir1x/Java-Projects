@@ -1,0 +1,87 @@
+-- ================================================
+-- Student Management System - Database Schema
+-- PostgreSQL Database Setup
+-- ================================================
+
+-- Database Creation
+-- Note: Run this separately if database doesn't exist
+-- CREATE DATABASE studentdatabase;
+
+-- Connect to database (if using psql)
+-- \c studentdatabase
+
+-- ================================================
+-- Table Creation
+-- ================================================
+
+-- Drop table if exists (for clean setup)
+DROP TABLE IF EXISTS StudentRecord;
+
+-- Create StudentRecord table
+CREATE TABLE StudentRecord (
+    id INT PRIMARY KEY,
+    name VARCHAR(20) NOT NULL,
+    age INT CHECK (age > 0),
+    course VARCHAR(20)
+);
+
+-- ================================================
+-- Sample Data (Optional)
+-- ================================================
+
+-- Insert sample student records
+INSERT INTO StudentRecord (id, name, age, course) VALUES
+    (1, 'Alice Johnson', 20, 'Computer Science'),
+    (2, 'Bob Smith', 22, 'Mathematics'),
+    (3, 'Charlie Brown', 21, 'Physics'),
+    (4, 'Diana Prince', 23, 'Chemistry'),
+    (5, 'Eve Adams', 19, 'Biology');
+
+-- ================================================
+-- Verify Setup
+-- ================================================
+
+-- Display table structure
+\d studentrecord
+
+-- View all records
+SELECT * FROM studentrecord;
+
+-- Count total students
+SELECT COUNT(*) as total_students FROM studentrecord;
+
+-- ================================================
+-- Useful Queries for Testing
+-- ================================================
+
+-- Find students by course
+-- SELECT * FROM studentrecord WHERE course = 'Computer Science';
+
+-- Find students by age range
+-- SELECT * FROM studentrecord WHERE age BETWEEN 20 AND 22;
+
+-- Update student course
+-- UPDATE studentrecord SET course = 'Engineering' WHERE id = 1;
+
+-- Delete specific student
+-- DELETE FROM studentrecord WHERE id = 5;
+
+-- Get average age
+-- SELECT AVG(age) as average_age FROM studentrecord;
+
+-- List all courses
+-- SELECT DISTINCT course FROM studentrecord;
+
+-- ================================================
+-- Additional Indexes (Optional for Performance)
+-- ================================================
+
+-- Create index on course for faster searching
+-- CREATE INDEX idx_course ON studentrecord(course);
+
+-- Create index on name for faster searching
+-- CREATE INDEX idx_name ON studentrecord(name);
+
+-- ================================================
+-- End of Schema
+-- ================================================
