@@ -1,86 +1,129 @@
-# Quick Setup Guide
+# 🚀 Quick Setup Guide - Employee Management System
 
-## 🚀 5-Minute Setup
+## 5-Minute Setup
 
-### Step 1: Clone Repository
-```bash
-git clone https://github.com/gir1x/student-management-jdbc.git
-cd student-management-jdbc
-```
-
-### Step 2: Setup Database
+### Step 1: Database Setup
 ```bash
 # Login to PostgreSQL
 psql -U postgres
 
-# Run in psql:
+# Create database and run schema
 CREATE DATABASE studentdatabase;
 \c studentdatabase
-\i database/schema.sql
+\i database/employee_schema.sql
 \q
 ```
 
-### Step 3: Configure Application
-Edit `src/com/g1rix/javalearning/Main.java`:
+### Step 2: Configure Application
+Update credentials in both files:
+- `com/g1rix/javalearning/loginSystem/Main.java`
+- `com/g1rix/javalearning/EmployeeDetails/mainOfEmployee.java`
+
 ```java
 private static final String DB_USER = "your_username";
 private static final String DB_PASSWORD = "your_password";
 ```
 
-### Step 4: Add JDBC Driver
-- Download: https://jdbc.postgresql.org/download/
+### Step 3: Add JDBC Driver
+- Download: https://jdbc.postgresql.org/download/postgresql-42.7.0.jar
 - Add to classpath in your IDE
 
-### Step 5: Compile & Run
+### Step 4: Compile & Run
 ```bash
 # Compile
-javac src/com/g1rix/javalearning/*.java
+javac -cp .:postgresql-42.7.0.jar com/g1rix/javalearning/**/*.java
 
-# Run
-java -cp src com.g1rix.javalearning.Main
+# Run with authentication
+java -cp .:postgresql-42.7.0.jar com.g1rix.javalearning.loginSystem.Main
+
+# OR run direct employee access
+java -cp .:postgresql-42.7.0.jar com.g1rix.javalearning.EmployeeDetails.mainOfEmployee
 ```
 
 ---
 
-## 📋 Pre-requisites Checklist
+## 📋 Default Test Credentials
 
-- [ ] JDK 8 or higher installed
-- [ ] PostgreSQL 12+ installed and running
-- [ ] PostgreSQL JDBC driver downloaded
-- [ ] IDE configured (optional but recommended)
+After running schema.sql, use these accounts:
+
+| Username | Password | Purpose |
+|----------|----------|---------|
+| admin | admin123 | Administrator |
+| manager | manager123 | Manager |
+| user | user123 | Regular user |
+
+⚠️ **Note**: Change these passwords in production!
 
 ---
 
-## 🆘 Quick Troubleshooting
+## 🎯 Quick Test Flow
 
-**Can't connect to database?**
+1. **Run Main.java** (with login)
+2. Choose option `1` - New Registration
+3. Create your account
+4. Choose option `2` - Login
+5. Enter credentials
+6. Access employee management menu
+7. Try adding an employee (option `1`)
+8. View all employees (option `2`)
+
+---
+
+## 🆘 Troubleshooting
+
+**PostgreSQL not running?**
 ```bash
-# Check if PostgreSQL is running
-sudo systemctl status postgresql
-
-# Start PostgreSQL
 sudo systemctl start postgresql
+sudo systemctl status postgresql
 ```
 
 **JDBC driver not found?**
 - Ensure `.jar` file is in classpath
-- For Maven users: Add dependency to `pom.xml`
+- Check IDE library configuration
 
-**Authentication failed?**
-- Verify username/password in `Main.java`
-- Check PostgreSQL user exists: `psql -U postgres -c "\du"`
+**Tables don't exist?**
+```sql
+-- Verify tables
+\dt
 
----
+-- If missing, run schema again
+\i database/employee_schema.sql
+```
 
-## 📱 Test Your Setup
-
-Run these commands in your application:
-1. Choose option `1` - Insert a test record
-2. Choose option `2` - View all records
-3. Choose option `6` - Exit
-
-If all three work, you're good to go! ✅
+**Login fails?**
+- Use default credentials from schema.sql
+- Or register new account first
 
 ---
 
-**Need help?** Open an issue on GitHub or contact: dharan24giri@gmail.com
+## 📊 Sample Data Overview
+
+The schema includes:
+- ✅ 3 test login accounts
+- ✅ 20 sample employees
+- ✅ 6 departments (HR, IT, Finance, Sales, Marketing, Operations)
+- ✅ Salary range: ₹35,000 - ₹62,000
+
+---
+
+## 🔄 Two Ways to Run
+
+### Option A: With Authentication (Recommended)
+```bash
+java com.g1rix.javalearning.loginSystem.Main
+```
+- Requires login
+- Secure access
+- User management
+
+### Option B: Direct Employee Access
+```bash
+java com.g1rix.javalearning.EmployeeDetails.mainOfEmployee
+```
+- No login required
+- Direct to employee menu
+- Good for testing
+
+---
+
+**Need help?** Contact: dharan24giri@gmail.com
