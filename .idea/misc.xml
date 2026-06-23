@@ -6,7 +6,14 @@
       <list>
         <option value="$PROJECT_DIR$/AutumnFramework/pom.xml" />
         <option value="$PROJECT_DIR$/ContainerShip/pom.xml" />
+        <option value="$USER_HOME$/Intellij/sb-ecom/untitled/pom.xml" />
+        <option value="$USER_HOME$/Intellij/sb-ecom/E-Commerce/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Intellij/sb-ecom/untitled/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" default="true" project-jdk-name="openjdk-26" project-jdk-type="JavaSDK">

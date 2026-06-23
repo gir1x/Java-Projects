@@ -10,5 +10,9 @@
         <module name="ContainerShip" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="E-Commerce" target="26" />
+      <module name="untitled" target="26" />
+    </bytecodeTargetLevel>
   </component>
 </project>
