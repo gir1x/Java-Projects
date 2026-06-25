@@ -62,10 +62,10 @@
     <configuration name="SbEcomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="sb-ecom" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.project.SbEcomApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.sb_ecom.SbEcomApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecommerce.project.*" />
+          <option name="PATTERN" value="com.ecommerce.sb_ecom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
