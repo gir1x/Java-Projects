@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;ResponseMapping -&gt; Endpoints&quot;">
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;used H2 database&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/sb_ecom/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/sb_ecom/Model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782371069135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;used H2 database&quot;">
+      <option name="closed" value="true" />
+      <created>1782390748393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782390748394</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Update Categories &quot;" />
     <MESSAGE value="&quot;ResponseMapping -&gt; Endpoints&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;ResponseMapping -&gt; Endpoints&quot;" />
+    <MESSAGE value="&quot;used H2 database&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;used H2 database&quot;" />
   </component>
 </project>
