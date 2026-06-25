@@ -4,13 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;used H2 database&quot;" />
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;updated&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/sb_ecom/Controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/sb_ecom/Model/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/sb_ecom/SbEcomApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/sb_ecom/Service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ecommerce/sb_ecom/Service/CategoryServiceImpl.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="Main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,7 +55,6 @@
   <component name="ProjectId" id="3FcHfIKMhOGKuuPAZdq5JOKk5Sh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -62,10 +84,10 @@
     <configuration name="SbEcomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="sb-ecom" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.sb_ecom.SbEcomApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.project.SbEcomApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecommerce.sb_ecom.*" />
+          <option name="PATTERN" value="com.ecommerce.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782396865740</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;updated&quot;">
+      <option name="closed" value="true" />
+      <created>1782398316119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1782398316119</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +183,7 @@
     <MESSAGE value="&quot;Update Categories &quot;" />
     <MESSAGE value="&quot;ResponseMapping -&gt; Endpoints&quot;" />
     <MESSAGE value="&quot;used H2 database&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;used H2 database&quot;" />
+    <MESSAGE value="&quot;updated&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;updated&quot;" />
   </component>
 </project>

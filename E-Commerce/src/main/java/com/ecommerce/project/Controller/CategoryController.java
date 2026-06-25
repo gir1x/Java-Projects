@@ -1,7 +1,7 @@
-package com.ecommerce.sb_ecom.Controller;
+package com.ecommerce.project.Controller;
 
-import com.ecommerce.sb_ecom.Model.Category;
-import com.ecommerce.sb_ecom.Service.CategoryService;
+import com.ecommerce.project.Model.Category;
+import com.ecommerce.project.Service.CategoryService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
