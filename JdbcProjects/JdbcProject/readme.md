@@ -107,7 +107,7 @@ CREATE TABLE EMPLOYEERECORD (
 );
 ```
 
-[📖 View Detailed Documentation](./EmployeeAccess/README.md)
+[📖 View Detailed Documentation](JdbcProject/EmployeeAccess/README.md)
 
 ---
 
@@ -500,8 +500,8 @@ KCG College of Technology, Chennai (2021-2025)
 
 - [Student Management System - README](./StudentManagement/README.md)
 - [Student Management System - Quick Start](./StudentManagement/QUICKSTART.md)
-- [Employee Management System - README](./EmployeeAccess/README.md)
-- [Employee Management System - Quick Start](./EmployeeAccess/QUICKSTART.md)
+- [Employee Management System - README](JdbcProject/EmployeeAccess/README.md)
+- [Employee Management System - Quick Start](JdbcProject/EmployeeAccess/QUICKSTART.md)
 - [Database Schemas](./database/)
 
 ---

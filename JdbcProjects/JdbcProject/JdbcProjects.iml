@@ -3,8 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/EmployeeAccess" isTestSource="false" packagePrefix="com.g1rix.javalearning" />
-      <sourceFolder url="file://$MODULE_DIR$/RecordManagement" isTestSource="false" packagePrefix="com.g1rix.javalearning" />
+      <sourceFolder url="file://$MODULE_DIR$/JdbcProject/EmployeeAccess" isTestSource="false" packagePrefix="com.g1rix.javalearning" />
+      <sourceFolder url="file://$MODULE_DIR$/JdbcProject/RecordManagement" isTestSource="false" packagePrefix="com.g1rix.javalearning" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

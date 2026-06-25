@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AutumnFramework" />
+        <module name="StreamApi" />
+        <module name="JdbcProject" />
         <module name="ContainerShip" />
       </profile>
       <profile name="Annotation profile for sb-ecom" enabled="true">
