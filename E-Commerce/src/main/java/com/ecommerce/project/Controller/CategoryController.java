@@ -34,8 +34,7 @@ public class CategoryController {
         return new ResponseEntity<>("Category added successfully",HttpStatus.CREATED);
     }
 
-    @DeleteMapping("/admin☀ 1● \uE0B0\n" +
-            " @g1rix \uE0B0 whoami               /categories/{categoryId}")
+    @DeleteMapping("/admin/categories/{categoryId}")
     public ResponseEntity<String> deleteCategory(@PathVariable Long categoryId){
         try {
             String status = categoryService.deleteCategory(categoryId);
