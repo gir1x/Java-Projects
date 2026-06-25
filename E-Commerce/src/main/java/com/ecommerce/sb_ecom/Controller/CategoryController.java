@@ -42,4 +42,14 @@ public class CategoryController {
         }
     }
 
+    @PutMapping("/public/categories/{categoryId}")
+    public ResponseEntity<String> updateCategory(@RequestBody Category category, @PathVariable Long categoryId){
+        try {
+            Category savedCategory = categoryService.updateCategory(category ,categoryId);
+            return new ResponseEntity<>("Category with category Id: " + categoryId, HttpStatus.OK);
+        }
+        catch (ResponseStatusException e){
+            return new ResponseEntity<>(e.getMessage(), e.getStatusCode());
+        }
+    }
 }
