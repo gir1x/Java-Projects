@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExpenseTracker/Java-Projects.iml" filepath="$PROJECT_DIR$/ExpenseTracker/Java-Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/BackendProjects/JdbcProject/JdbcProjects.iml" filepath="$PROJECT_DIR$/BackendProjects/JdbcProject/JdbcProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendProjects/StreamApi/StreamApi.iml" filepath="$PROJECT_DIR$/BackendProjects/StreamApi/StreamApi.iml" />
     </modules>
   </component>
 </project>
