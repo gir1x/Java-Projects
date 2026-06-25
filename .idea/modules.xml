@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ExpenseTracker/Java-Projects.iml" filepath="$PROJECT_DIR$/ExpenseTracker/Java-Projects.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JdbcProjects/JdbcProject/JdbcProjects.iml" filepath="$PROJECT_DIR$/JdbcProjects/JdbcProject/JdbcProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackendProjects/JdbcProject/JdbcProjects.iml" filepath="$PROJECT_DIR$/BackendProjects/JdbcProject/JdbcProjects.iml" />
     </modules>
   </component>
 </project>
