@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;used H2 database&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/sb_ecom/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/sb_ecom/Model/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +64,10 @@
     <configuration name="SbEcomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="sb-ecom" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.sb_ecom.SbEcomApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ecommerce.project.SbEcomApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ecommerce.sb_ecom.*" />
+          <option name="PATTERN" value="com.ecommerce.project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782390748394</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;used H2 database&quot;">
+      <option name="closed" value="true" />
+      <created>1782395439949</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782395439949</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
