@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;jpa steps and repository implementation&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;utilized Custom Exception&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/APIException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/repositories/CategoryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782411606712</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&quot;utilized Custom Exception&quot;">
+      <option name="closed" value="true" />
+      <created>1782549349411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1782549349411</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +220,7 @@
     <MESSAGE value="&quot;used H2 database&quot;" />
     <MESSAGE value="&quot;updated&quot;" />
     <MESSAGE value="&quot;jpa steps and repository implementation&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;jpa steps and repository implementation&quot;" />
+    <MESSAGE value="&quot;utilized Custom Exception&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;utilized Custom Exception&quot;" />
   </component>
 </project>
