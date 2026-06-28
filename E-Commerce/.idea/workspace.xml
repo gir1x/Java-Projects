@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Implemented modelMapper in update and delete mapping&quot;">
-      <change afterPath="$PROJECT_DIR$/.gitigonre" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/requiredInputData/insertCategorySQL.txt" afterDir="false" />
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Implemented Pagination and used centralized constants&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/APIResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/CategoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/CategoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -242,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782672240020</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="&quot;Implemented Pagination and used centralized constants&quot;">
+      <option name="closed" value="true" />
+      <created>1782674876730</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1782674876730</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +266,7 @@
     <MESSAGE value="&quot;Implemented Validation and removed using used code, made controller and service clean&quot;" />
     <MESSAGE value="&quot;Implemented modelMapper and DTO for get and put mapping&quot;" />
     <MESSAGE value="&quot;Implemented modelMapper in update and delete mapping&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implemented modelMapper in update and delete mapping&quot;" />
+    <MESSAGE value="&quot;Implemented Pagination and used centralized constants&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implemented Pagination and used centralized constants&quot;" />
   </component>
 </project>
