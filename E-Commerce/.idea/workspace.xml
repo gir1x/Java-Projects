@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Implemented modelMapper and DTO for get and put mapping&quot;">
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Implemented modelMapper in update and delete mapping&quot;">
+      <change afterPath="$PROJECT_DIR$/.gitigonre" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requiredInputData/insertCategorySQL.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/CategoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/CategoryResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782670105877</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;Implemented modelMapper in update and delete mapping&quot;">
+      <option name="closed" value="true" />
+      <created>1782672227851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1782672227851</updated>
+    </task>
+    <task id="LOCAL-00014" summary="&quot;Implemented modelMapper in update and delete mapping&quot;">
+      <option name="closed" value="true" />
+      <created>1782672240020</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1782672240020</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +257,7 @@
     <MESSAGE value="&quot;utilized Custom Exception&quot;" />
     <MESSAGE value="&quot;Implemented Validation and removed using used code, made controller and service clean&quot;" />
     <MESSAGE value="&quot;Implemented modelMapper and DTO for get and put mapping&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implemented modelMapper and DTO for get and put mapping&quot;" />
+    <MESSAGE value="&quot;Implemented modelMapper in update and delete mapping&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implemented modelMapper in update and delete mapping&quot;" />
   </component>
 </project>
