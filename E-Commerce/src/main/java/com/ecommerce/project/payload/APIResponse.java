@@ -1,4 +1,4 @@
-package com.ecommerce.project.exception;
+package com.ecommerce.project.payload;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

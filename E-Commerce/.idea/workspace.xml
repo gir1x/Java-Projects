@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Implemented Pagination and used centralized constants&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/APIResponse.java" afterDir="false" />
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Implemented Sorting and Standard for Exception response&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/repositories/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/APIResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782674876730</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="&quot;Implemented Sorting and Standard for Exception response&quot;">
+      <option name="closed" value="true" />
+      <created>1782676305774</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1782676305774</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +279,7 @@
     <MESSAGE value="&quot;Implemented modelMapper and DTO for get and put mapping&quot;" />
     <MESSAGE value="&quot;Implemented modelMapper in update and delete mapping&quot;" />
     <MESSAGE value="&quot;Implemented Pagination and used centralized constants&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implemented Pagination and used centralized constants&quot;" />
+    <MESSAGE value="&quot;Implemented Sorting and Standard for Exception response&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Implemented Sorting and Standard for Exception response&quot;" />
   </component>
 </project>
