@@ -3,6 +3,7 @@ package com.ecommerce.project.payload;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.aspectj.apache.bcel.classfile.InnerClass;
 
 import java.util.List;
 
@@ -11,5 +12,10 @@ import java.util.List;
 @NoArgsConstructor
 public class ProductResponse {
     private List<ProductDTO> content;
+    private Integer pageNumber;
+    private Integer pageSize;
+    private Long totalElements;
+    private Integer totalPages;
+    private boolean lastPage;
 }
 

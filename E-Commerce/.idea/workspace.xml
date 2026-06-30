@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;Introduced product entity and relations between entity&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/FileServiceImpl.java" afterDir="false" />
+    <list default="true" id="3f81b381-4d27-4832-bc50-eda93875406d" name="Changes" comment="&quot;added Update product, upload image and deleted logic to server &quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/FileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/Service/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/ProductDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/config/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/payload/ProductResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecommerce/project/repositories/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782755052719</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="&quot;added Update product, upload image and deleted logic to server &quot;">
+      <option name="closed" value="true" />
+      <created>1782760703543</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1782760703543</updated>
+    </task>
+    <task id="LOCAL-00019" summary="&quot;added Update product, upload image and deleted logic to server &quot;">
+      <option name="closed" value="true" />
+      <created>1782760953747</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1782760953747</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +305,7 @@
     <MESSAGE value="&quot;Implemented Pagination and used centralized constants&quot;" />
     <MESSAGE value="&quot;Implemented Sorting and Standard for Exception response&quot;" />
     <MESSAGE value="&quot;Introduced product entity and relations between entity&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Introduced product entity and relations between entity&quot;" />
+    <MESSAGE value="&quot;added Update product, upload image and deleted logic to server &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added Update product, upload image and deleted logic to server &quot;" />
   </component>
 </project>
